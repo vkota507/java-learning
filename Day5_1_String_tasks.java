@@ -46,7 +46,5 @@ public class Day5_1_String_tasks {
             System.out.println("Not a Palindrome");
         }
 
-        //4.
-
     }
 }

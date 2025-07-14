@@ -2,7 +2,7 @@ import java.util.Scanner;
 // Dog’s name, age, breed, Cat’s name, age, color
 
 // Hierarchical Inheritance Example
-public class Day_12_6_HierarchicalInheritance {
+public class Day12_6_HierarchicalInheritance {
     // Base class
     static class Animal {
         String name;

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day_12_4_Car_Inheritance {
+public class Day12_4_Car_Inheritance {
 
     // Base class Vehicle
     static class Vehicle{

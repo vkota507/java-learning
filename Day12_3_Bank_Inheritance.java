@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day_12_3_Bank_Inheritance {
+public class Day12_3_Bank_Inheritance {
 
     // Base class Bank Account
     static class BankAccount{

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day_12_2_Inheritance_userip {
+public class Day12_2_Inheritance_userip {
 
     // Base class Person
     static class Person {

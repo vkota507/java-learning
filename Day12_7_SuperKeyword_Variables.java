@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // Super Keyword Example
-public class Day_12_7_SuperKeyword_Variables {
+public class Day12_7_SuperKeyword_Variables {
 
     // Parent class
 

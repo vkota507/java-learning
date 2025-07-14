@@ -19,7 +19,7 @@ class Employee extends PersonBasic {
     }
 }
 
-public class Day_12_1_Inheritance {
+public class Day12_1_Inheritance {
     public static void main(String[] args) {
         Employee e1 = new Employee();
         e1.name = "Varun";

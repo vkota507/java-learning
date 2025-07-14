@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day_12_5_MultilevelInheritance {
+public class Day12_5_MultilevelInheritance {
 
     // Level 1: Grandparent class
     static class Grandparent{

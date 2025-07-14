@@ -37,7 +37,7 @@ class Square extends Shape {
     }
 }
 
-public class Day_12_10_MethodOverriding {
+public class Day12_10_MethodOverriding {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

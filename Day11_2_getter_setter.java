@@ -1,17 +1,17 @@
-public class Day_11_2_getter_setter {
+public class Day11_2_getter_setter {
 
     // 🔒 Step 1: Private properties
     private String name;
     private int age;
 
     // 🛠️ Step 2: No-arg constructor
-    public Day_11_2_getter_setter() {
+    public Day11_2_getter_setter() {
         this.name = "Unknown";
         this.age = 0;
     }
 
     // 🛠️ Step 3: Parameterized constructor
-    public Day_11_2_getter_setter(String name, int age) {
+    public Day11_2_getter_setter(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -45,7 +45,7 @@ public class Day_11_2_getter_setter {
     // 🚀 Step 9: Main method to test
     public static void main(String[] args) {
         // Creating an object using no-arg constructor
-        Day_11_2_getter_setter person1 = new Day_11_2_getter_setter();
+        Day11_2_getter_setter person1 = new Day11_2_getter_setter();
 
         // Displaying default details
         person1.displayDetails();
@@ -58,7 +58,7 @@ public class Day_11_2_getter_setter {
         person1.displayDetails();
 
         // Alternatively, creating with parameterized constructor
-        Day_11_2_getter_setter person2 = new Day_11_2_getter_setter("Kumar", 30);
+        Day11_2_getter_setter person2 = new Day11_2_getter_setter("Kumar", 30);
         person2.displayDetails();
 
         // Using getters individually

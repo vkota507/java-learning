@@ -1,4 +1,4 @@
-public class Day_11_1_OOPs_Constructors {
+public class Day11_1_OOPs_Constructors {
 
     // Properties (variables inside class)
     String brand;
@@ -6,14 +6,14 @@ public class Day_11_1_OOPs_Constructors {
 
     // No-arg constructor (no inputs0
 
-    public Day_11_1_OOPs_Constructors(){
+    public Day11_1_OOPs_Constructors(){
         this.brand = "Unknown";
         this.price = 0;
     }
 
     // Parameterized constructor (input to set values)
 
-    public Day_11_1_OOPs_Constructors(String brand, int price){
+    public Day11_1_OOPs_Constructors(String brand, int price){
 
         this.brand = brand;
         this.price = price;
@@ -30,12 +30,12 @@ public class Day_11_1_OOPs_Constructors {
 
     public static void main(String[] args) {
         // Objects using no-arg constructor
-        Day_11_1_OOPs_Constructors car1 = new Day_11_1_OOPs_Constructors();
+        Day11_1_OOPs_Constructors car1 = new Day11_1_OOPs_Constructors();
         System.out.println("Car1 details: ");
         car1.displayDetails();
 
         //Objects using parameterized constructor
-        Day_11_1_OOPs_Constructors car2 = new Day_11_1_OOPs_Constructors("Tesla", 60000);
+        Day11_1_OOPs_Constructors car2 = new Day11_1_OOPs_Constructors("Tesla", 60000);
         System.out.println("\nCar2 details: ");
         car2.displayDetails();
     }

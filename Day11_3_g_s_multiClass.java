@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day_11_3_g_s_multiClass {
+public class Day11_3_g_s_multiClass {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
